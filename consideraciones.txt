@@ -1,0 +1,5 @@
+Consideraciones para la ejecución:
+
+*Se debe crear la BD con el nombre 'dvdrental_md2', para luego correr el archivo "grupo1.ddl". Se utiliza la BD 'dvdrental' existente desde un principio. Se utilizan las conexiones "con_dim" y "con_dvdrental"
+
+*La ejecución del Job principal "main.kjb" ejecuta sentencias SQL para modificar la BD 'dvdrental'. Agrega la tabla 'forma_pago'. Agrega la columna 'forma_pago_id' a la tabla payment.
